@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+#myButton{
+    font-size: 4em;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.myLabels{
+    font-size: 4em;
+    
+}
