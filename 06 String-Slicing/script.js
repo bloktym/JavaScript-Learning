@@ -1,4 +1,4 @@
-const email = "ryanhenny21@gmail.com";
+const email = "brocode21@gmail.com";
 
 let username = email.slice(0, email.indexOf("@"));
 let extension = email.slice(email.indexOf("@")+1);
