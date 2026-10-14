@@ -17,9 +17,11 @@ intro.textContent = `Hello User! Please guess a number between ${minNum} through
 btn1.onclick = function(){
     guess = Number(num.value);
     if(isNaN(guess)){
+        result.style.color = 'red';
         result.textContent = `Please enter a Valid Number`;
 
     }else if(guess < minNum || guess > maxNum){
+        result.style.color = 'red';
         result.textContent = `Please enter a number in the correct bounds!`;
 
     }else{
