@@ -39,4 +39,4 @@ function isValidEmail(email){
 }
 
 
-console.log(isValidEmail("ryanhenny21@gmail.com"));
+console.log(isValidEmail("hennyig22@gmail.com"));
